@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: Mattern2703/aviation-news
+  branch: main
 
 media_folder: "images"
 public_folder: "/images"
