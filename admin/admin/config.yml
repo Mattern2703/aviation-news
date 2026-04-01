@@ -1,0 +1,16 @@
+backend:
+  name: github
+  repo: BRUKERNAVN/aviation-news
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "posts"
+    label: "Artikler"
+    folder: "_posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Tittel", name: "title", widget: "string" }
+      - { label: "Innhold", name: "body", widget: "markdown" }
