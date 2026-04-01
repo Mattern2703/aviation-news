@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: BRUKERNAVN/aviation-news
+  repo: Mattern2703/aviation-news
 
 media_folder: "images"
 public_folder: "/images"
